@@ -1,0 +1,88 @@
+{"cities":[
+	{
+		"id": 1,
+		"name": "San Fransisco",
+		"coordinates": [-122.68, 37.75]
+	},
+	{
+		"id": 2,
+		"name": "New York City",
+		"coordinates": [-73.98, 40.77]
+	},
+	{
+		"id": 3,
+		"name": "Washington DC",
+		"coordinates": [-77.46, 38.95] 
+	},
+	{
+		"id": 4,
+		"name": "Detroit",
+		"coordinates": [-83.02, 42.42]
+	},
+	{
+		"id": 5,
+		"name": "Chicago",
+		"coordinates": [-87.65, 41.90] 
+	},
+	{
+		"id": 6,
+		"name": "Miami",
+		"coordinates": [-80.28, 25.82] 
+	},
+	{
+		"id": 7,
+		"name": "Los Angeles",
+		"coordinates": [-118.40, 33.93]
+	},
+	{
+		"id": 8,
+		"name": "Seattle",
+		"coordinates": [-122.30, 47.45] 
+	},
+	{
+		"id": 9,
+		"name": "Portland",
+		"coordinates": [-122.68, 45.52]
+	},
+	{
+		"id": 10,
+		"name": "Boston",
+		"coordinates": [-71.03, 42.37] 
+	},
+	{
+		"id": 11,
+		"name": "Houston",
+		"coordinates": [-95.35, 29.97] 
+	},
+	{
+		"id": 12,
+		"name": "Dallas",
+		"coordinates": [-96.97, 32.73]
+	},
+	{
+		"id": 13,
+		"name": "Denver",
+		"coordinates": [-104.87, 39.75]
+	},
+	{
+		"id": 14,
+		"name": "Atlanta",
+		"coordinates":  [-84.42, 33.65]
+	},
+	{
+		"id": 15,
+		"name": "Philadelphia",
+		"coordinates": [-75.25, 39.88]
+	},
+	{
+		"id": 16,
+		"name": "Baltimore",
+		"coordinates": [-76.67, 39.18]
+	},
+	{
+		"id": 17,
+		"name": "New Orleans",
+		"coordinates": [-90.25, 29.98]
+	}		
+	]
+}

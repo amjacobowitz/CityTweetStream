@@ -1,0 +1,39 @@
+.title{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: rgba(249, 76, 76, 0.6);
+}
+
+.tweetCountBox{
+	color: red;
+}
+
+.tweet-map{
+	margin-bottom: 20px;
+}
+
+.tweet-display-wrapper{
+	margin: 0 auto;
+	width: 50%;
+	height: 300px;
+	border-radius: 5px;
+	border: 1px solid rgba(249, 76, 76, 0.2);
+	color: #9aafea;
+	text-align: center;
+}
+
+.tweet-display-title{
+	width: 100%;
+	height: 30px;
+}
+
+.tweet-display{
+	width: 100%;
+	height: 220px;
+}
+
+.buttons-box{
+	margin: 0 auto;
+	width: 10%;
+}
