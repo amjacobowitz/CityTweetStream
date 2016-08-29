@@ -52,7 +52,7 @@ var coordinates = sanFransiscoCoords
 	.concat(baltimoreCoords)
 	.concat(newOrleansCoords)
 
-server.listen(process.env.PORT || 3000);
+server.listen(8080);
 
 io.on('connection', function(socket){
 
