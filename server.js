@@ -36,7 +36,7 @@ var sanFransiscoCoords = "-122.18,37.25,-121.18,38.25"
 
 var coordinates = sanFransiscoCoords
 	.concat(newYorkCityCoords)
-	.concat(washingtonDCCoords)
+	// .concat(washingtonDCCoords)
 	.concat(detroitCoords)
 	.concat(chicagoCoords)
 	.concat(miamiCoords)
@@ -48,7 +48,7 @@ var coordinates = sanFransiscoCoords
 	.concat(dallasCoords)
 	.concat(denverCoords)
 	.concat(atlantaCoords)
-	.concat(philadelphiaCoords)
+	// .concat(philadelphiaCoords)
 	.concat(baltimoreCoords)
 	.concat(newOrleansCoords)
 
