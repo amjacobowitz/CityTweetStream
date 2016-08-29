@@ -144,7 +144,7 @@ io.on('connection', function(socket){
 });
 
 
-app.set('port', 3000)
+
 
 
 app.use(express.static(__dirname + '/public'))
@@ -159,7 +159,7 @@ app.use(webpackDevMiddleware(compiler, {
 	noInfo: true
 }));
 
-app.listen(app.get('port'), () => {
-	console.log("Server listening on port " + app.get('port'));
+app.listen(process.env.port || 3000, () => {
+	console.log("Server listening");
 });
 
