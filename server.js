@@ -36,23 +36,23 @@ var sanFransiscoCoords = "-122.18,37.25,-121.18,38.25"
 
 var coordinates = sanFransiscoCoords
 	.concat(newYorkCityCoords)
-	// .concat(washingtonDCCoords)
-	// .concat(detroitCoords)
-	// .concat(chicagoCoords)
-	// .concat(miamiCoords)
-	// .concat(losAngelesCoords)
-	// .concat(seattleCoords)
-	// .concat(portlandCoords)
+	.concat(washingtonDCCoords)
+	.concat(detroitCoords)
+	.concat(chicagoCoords)
+	.concat(miamiCoords)
+	.concat(losAngelesCoords)
+	.concat(seattleCoords)
+	.concat(portlandCoords)
 	.concat(bostonCoords)
 	.concat(houstonCoords)
 	.concat(dallasCoords)
 	.concat(denverCoords)
 	.concat(atlantaCoords)
-	// .concat(philadelphiaCoords)
+	.concat(philadelphiaCoords)
 	.concat(baltimoreCoords)
 	.concat(newOrleansCoords)
 
-server.listen(8080);
+server.listen(process.env.PORT || 3000);
 
 io.on('connection', function(socket){
 
