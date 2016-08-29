@@ -1,7 +1,7 @@
 {
-  "name": "pokerares",
+  "name": "citytweetstream",
   "version": "1.0.0",
-  "description": "A locator that uses twitter to find pokemon.",
+  "description": "A geostream of tweets from major American cities",
   "main": "server.js",
   "scripts": {
     "server": "node server.js",
@@ -11,23 +11,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amjacobowitz/pokerares.git"
+    "url": "git+https://github.com/amjacobowitz/citytweetstream.git"
   },
   "keywords": [
-    "pokemon",
     "find",
     "locate",
     "locator",
     "finder",
-    "rare",
-    "twitter"
+    "twitter",
+    "tweet"
   ],
   "author": "Aaron Jacobowitz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amjacobowitz/pokerares/issues"
+    "url": "https://github.com/amjacobowitz/citytweetstream/issues"
   },
-  "homepage": "https://github.com/amjacobowitz/pokerares#readme",
+  "homepage": "https://github.com/amjacobowitz/citytweetstream#readme",
   "dependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.13.2",
